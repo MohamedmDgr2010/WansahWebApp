@@ -12658,7 +12658,7 @@ function checkIncomingModuleAPI() {
 }
 
 var ASM_CONSTS = {
-  15306921: () => {
+  15306937: () => {
     Module.qtSuspendResumeControl = ({
       resume: null,
       asyncifyEnabled: false,
@@ -12667,7 +12667,7 @@ var ASM_CONSTS = {
       exclusiveEventHandler: 0
     });
   },
-  15307066: $0 => {
+  15307082: $0 => {
     function createNamedFunction(name, parent, obj) {
       return {
         [name]: function(...args) {
@@ -12710,8 +12710,8 @@ var ASM_CONSTS = {
     };
     control.eventHandlers[index] = handler;
   },
-  15308086: () => Module.getRandomValue(),
-  15308122: () => {
+  15308102: () => Module.getRandomValue(),
+  15308138: () => {
     if (Module.getRandomValue === undefined) {
       try {
         var window_ = "object" === typeof window ? window : self;
